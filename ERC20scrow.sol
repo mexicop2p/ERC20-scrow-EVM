@@ -31,7 +31,7 @@ contract P2PEscrow is Ownable, ReentrancyGuard {
     error OrderExists();
     /// @notice Amount must be greater than zero.
     error ZeroAmount();
-    /// @notice Amount exceeds the 2 400 MXN KYC limit.
+    /// @notice Amount exceeds the 42 400 MXN KYC limit.
     error KycLimit();
     /// @notice ERC‑20 token not on the whitelist.
     error TokenNotAllowed();
@@ -113,7 +113,7 @@ contract P2PEscrow is Ownable, ReentrancyGuard {
     /// @notice Maximum lock duration in seconds (immutable).
     uint256 public immutable MAX_LOCK_DURATION;
 
-    /// @notice Max deposit per KYC (token native units) — e.g., 2 400 MXN.
+    /// @notice Max deposit per KYC (token native units) — e.g., 32 400 MXN.
     uint256 public immutable MXN_KYC_LIMIT;
 
     /* -------------------------------------------------------------------------- */
