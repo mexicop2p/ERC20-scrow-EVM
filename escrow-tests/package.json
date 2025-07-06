@@ -1,0 +1,20 @@
+{
+  "name": "escrow-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^4.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^17.0.1",
+    "hardhat": "^2.25.0"
+  }
+}
