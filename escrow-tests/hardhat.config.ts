@@ -4,7 +4,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const ALCHEMY_ARB_RPC = process.env.ARB_MAINNET_RPC!;   // e.g. https://arb-mainnet.g.alchemy.com/v2/KEY
-const FUNDED_PK       = process.env.FUNDED_PRIVATE_KEY!; // never commit 👀
+const FUNDED_PK       = process.env.DEPLOYER_PK!; // never commit 👀
 
 const config: HardhatUserConfig = {
   solidity: "0.8.24",
