@@ -1,5 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-ethers";   // 👈 add this line
+import "@nomicfoundation/hardhat-toolbox";  // keep toolbox if you like
 import * as dotenv from "dotenv";
 dotenv.config();
 
