@@ -101,17 +101,3 @@ Shows critical admin functions are locked down.
 * `invariant.spec.ts` – fuzz random sequences and check total escrowed == contract balance.
 * `fork.spec.ts` – run a single deposit/refund on a main-net fork with real USDC.e.
 * `gasReporter.json` – snapshot gas per function; fail CI on >10 % change.
-
-Pull requests should add or update tests whenever contract logic changes.
-
-```
-
----
-
-### Next actions you could take
-
-1. **Parameterise** the KYC limit per token (deploy separate escrows or store a mapping).  
-2. **Add the optional tests** above when you approach audit time.  
-3. **Finish the deployment script** and try it on Arbitrum testnet with MXNB once the token is live.
-
-Ping me for any of those and I’ll help you wire them up. 🚀
