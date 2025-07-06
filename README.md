@@ -1,4 +1,3 @@
-```markdown
 # P2PEscrow: Peer-to-Peer Token-for-Fiat Escrow Smart Contract
 
 ## Overview
@@ -134,4 +133,3 @@ Operating a crypto escrow service in Mexico requires registration, robust KYC/AM
 **Use at your own risk.**
 
 ---
-```
