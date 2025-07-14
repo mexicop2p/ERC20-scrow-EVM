@@ -1,4 +1,4 @@
-# P2PEscrow: Peer-to-Peer Token-for-Fiat Escrow Smart Contract
+# MexicoP2PEscrow: Peer-to-Peer Token-for-Fiat Escrow Smart Contract
 
 ## Overview
 
