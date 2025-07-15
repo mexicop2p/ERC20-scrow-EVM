@@ -1,5 +1,7 @@
 # MexicoP2PEscrow: Peer-to-Peer Token-for-Fiat Escrow Smart Contract
 
+[SMART CONTRACT ADDRESS]https://arbiscan.io/address/0x912e4A1cb08817a9E0a2F56894a3cA2f1ad7d06a#tokentxns 
+
 ## Overview
 
 **P2PEscrow** is a trust-minimized escrow smart contract designed for peer-to-peer (P2P) trades where users exchange ERC-20 tokens (e.g., USDC) for fiat currency (e.g., MXN via [SPEI](https://www.banxico.org.mx/cep/)). The contract enforces an amount ceiling per transaction, aligning with Mexico's latest [anti-money laundering (AML)](https://www.dof.gob.mx/nota_detalle.php?codigo=5273191&fecha=17/10/2012#gsc.tab=0) regulations as of June 2025.
